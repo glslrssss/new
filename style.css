@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+     min-height: 100vh;
+    padding: 20px;
+    color: rgb(238, 173, 173);
+}
+
+#container{
+    max-width: 900px;
+    margin: 0 auto;
+    background: hsla(30, 100%, 99%, 0.986);
+    border-radius: 20px;
+    box-shadow: 5px 10px 40px hsl(330, 93%, 58%);
+    overflow: hidden;
+}
+
+header{
+    background: hsl(330, 100%, 81%);
+    padding: 40px 20px;
+    text-align: center;
+    color: beige;
+}
+
+header h1 {
+    font-size: 2.3em;
+    margin-bottom: 10px;
+    text-shadow: 10px 10px 40px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    animation: heartbeat 3s infinite;
+}
+
+ header .subtitle {
+    font-size: 1.3em;
+    font-style: italic;
+    opacity: 0.95;
+ }
+
+section {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    padding: 10px 40px;
+    background: #f868ab;
+    color: beige;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px rgb(247, 8, 215);
+}
+
+#note{
+font-family: "Brush Script MT", "Lucida Handwriting", cursive;
+font-size: 20px;
+line-height: 1.6;
+color: #8B0000; /* Dark red for romance */
+}
+
+#reason{
+font-family: 'Love Light', cursive;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #8B0000;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#promise{
+font-family: "Brush Script MT", "Lucida Handwriting", cursive;
+font-size: 20px;
+line-height: 1.6;
+color: #8B0000; /* Dark red for romance */
+}
+
+footer{
+    background: hsl(330, 100%, 81%);
+    padding: 40px 20px;
+    text-align: center;
+    color: beige;
+}
+
+@keyframes heartbeat {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+}
+
